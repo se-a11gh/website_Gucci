@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:"CLEANVEL";
+}
+:root{
+    --index:calc(1vw + 1vh);
+}
+
+*.flex_mod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+*.flex_mod2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+*.flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;       
+}
+body::-webkit-scrollbar-track {
+    background: rgb(214, 214, 212);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(71, 70, 70);
+    border-radius: 3px;
+}
+
+a{
+    display: block;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+@font-face {
+    font-family:"CLEANVEL";
+    src:url("fonts/CLEANVEL.TTF");
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Montserrat-Italic-VariableFont_wght";
+    src:url("fonts/Montserrat-Italic-VariableFont_wght.ttf");
+    font-display: swap;
+    font-style: normal;
+}
+
+.Wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.btn-pg_Main{ /*--- Кнопки глав. стр ---*/
+    cursor: pointer;
+    transition: background 1s;
+    font-size: 20px;
+    width: 250px;
+    height: 45px;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.btn_pg{ /*--- Кнопки товаров/ купить, избранное. стр ---*/
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border:none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 1s;
+}.btn_pg:hover{
+    background-color: #312F2F;
+    color: white;
+}
+
+
+
+
+/*----------------------------------------------------------- Стиль для карточек товаров -------*/
+.tovar_list{
+    width: 100%;
+    height: auto;
+}
+.categrProd{
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.categ_name{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.borLine{
+    width: 90%;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    margin-left: 15px;
+}
+.wrap_cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.cardProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 470px;
+    box-shadow: 1px 1px 3px rgb(181, 181, 181);
+    border-radius: 3px;
+}
+.cardProduct img{
+    width: 100%;
+    height: 350px;
+}
+.card_img{
+    width: 100%;
+    height: 350px;
+}
+
+.card_descrp{
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.card_descrp p:last-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card_btn{
+    width: 100%;
+    height: 100px;
+}.card_btn img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+
+
+
+/*-------------------------------------------------------------- Главный блок и блок-видео -------*/
+#main_g, #main_g1947{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 1;  
+}
+
+.video_gucci {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}    
+.video_gucci video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.block_video_content, .block_video_content1947{
+    justify-content: space-around;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    height: 150px;
+    z-index: 2;
+}.block_video_content p, .block_video_content1947 p{
+    text-align: center;
+    padding: 10px;
+    font-size: calc(var(--index) * 2);
+    font-family:"CLEANVEL";
+    color: white;
+}
+
+
+
+/*-------------------------------------------------------------------------------- Футер ----*/
+#footer_g{  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    z-index: 80;
+} 
+.bl_foter_up{
+    display: flex;
+    justify-content: space-around;
+    height: 300px; 
+    background-color:#E1DFDF;
+}
+.bl_foter_up div{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.f_content_1{
+    line-height: 50px;
+}
+.fc img{
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+.item_trig p, .bl_select label{
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.bl_foter_up ul li{
+    line-height: 25px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.bl_foter_up ul li:hover{
+    font-weight: bold;
+}
+
+.bl_foter_down{
+    display: flex;
+    justify-content: center;
+    background-color: #312F2F;
+}
+
+.bl_foter_down {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bl_foter_down_comp{
+    width: 100%;
+}
+.bl_foter_down_comp img{
+    width: 50px;
+    height: 50px;
+}
+.bl_foter_down_soc{
+    display: flex;
+    align-items: center;
+}
+.bl_foter_down_soc img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}

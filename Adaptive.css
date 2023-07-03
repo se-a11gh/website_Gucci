@@ -1,0 +1,750 @@
+@media (max-width:1275px) {
+    .cardProduct {
+        width: 280px;
+    }
+    } 
+    
+    
+    @media (max-width:1250px) {
+    .circle_text {
+        width: 400px;
+        height: 400px;
+    }
+    }/*---------------------------------------------------------------------- 1250px ---------*/
+    
+    
+    @media (max-width:1200px) {
+    .cardProduct {
+        width: 23%;
+    }
+    .slider_line{
+        height: 460px;
+    }
+    }/*---------------------------------------------------------------------- 1200px ---------*/
+    
+    
+    
+    @media(max-width:1150px){
+    .wrap_list ul{
+        margin: 42px;
+    }
+    
+    .foto_collage img {
+        height: 450px;
+    }
+    .circle_text {
+        width: 350px;
+        height: 350px;
+        margin-left: 40px;
+    }
+    .circle_text p:first-child{
+        font-size: 25px;
+    }
+    .circle_text p{
+        font-size: 16px;
+    }
+    .slide_3 {
+        background-position: -16px -70px;
+    }
+    
+    
+    }/*---------------------------------------------------------------------- 1150px ---------*/
+    
+    
+    @media(max-width:1100px){
+    .bl_foto {
+        height: 650px;
+    }
+    .block_tov_foto {
+        height: 2050px;
+    }
+    .wrap_list ul{
+        margin: 37px;
+    }
+    .bl_list {
+        width: 710px;
+    }
+    .foto_categ{
+        background-size: 150% auto;
+    }
+    .foto_categ__1, .foto_categ__2{
+        background-size: 110% auto;
+    }
+    .tovar_proper {
+        width: 420px;
+    }
+    .tov_info_content {
+        width: 100%;
+    }
+    }/*---------------------------------------------------------------------- 1100px ---------*/
+    
+    
+    
+    @media(max-width:1050px){
+    .cardProduct {
+        width: 22%;
+        height: 405px;
+    }
+    .card_img, .card_img img {
+        height: 290px;
+    }
+    .btn_pg {
+        width: 165px;
+        height: 35px;
+        font-size: 16px;
+    }
+    
+    
+    .sumka_info_foto_1 img {
+        height: 500px;
+    }
+    .sumka_info_1 {
+        height: 600px;
+    }
+    .formOrder {
+        width: 500px;
+    }
+    .order_list {
+        width: 45%;
+    }
+    .bl_list {
+        width: 90%;
+    }
+    .block_text{
+        width: 400px;
+    }
+    .slider_line{
+        height: 415px;
+    }
+    .slide_2{
+        background-position: -55px -115px;
+        background-size: 110% auto;
+    }
+    
+    .slide_about{
+        width: 45%;
+    }
+    .Block_4 {
+        height: 500px;
+    }
+    .bl_story {
+        height: 380px;
+    }
+    .bl_story div img {
+        height: 250px;
+    }
+    }/*---------------------------------------------------------------------- 1050px ---------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    @media(max-width:950px){
+        .slide_3 {
+            background-size: 119% auto;
+            background-position: -49px -53px;
+        }
+    
+    .Block_3 {
+        margin-top: -40px;
+    }
+    .bl_foto {
+        height: 550px;
+    }
+    .block_tov_foto {
+        height: 1770px;
+    }
+    .wrap_list ul li {
+        width: 135%;
+        font-size: calc(var(--index) * 0.8);
+    }
+    .wrap_list ul{
+        margin: 30px;
+    }
+    .fon_toget_text {
+        width: 36%;
+        height: 100px;
+    }
+    .foto_collage img {
+        height: 360px;
+        transform: rotateY(0deg);
+    }
+    .block_foto, .block_foto2{
+        background-size: 100% 635px;
+    }
+    .foto_about p {
+        width: 55%;
+        font-size: calc(var(--index) * 2.5);
+    }
+    
+    .wrap_text p:nth-child(1) {
+        font-size: calc(var(--index) * 1.2);
+    }
+    .wrap_text p {
+        font-size: calc(var(--index) * 0.9);
+    }
+    .tovar_proper {
+        width: 360px;
+    }
+    .btn_pg {
+        width: 155px;
+    }
+    }/*----------------------------------------------------------------------- 950px ---------*/
+    
+    
+    
+    @media (max-width:900px) {
+    .foto_categ{
+        background-size: 190% auto;
+        background-position: -150px 0px;
+    }
+    .foto_categ__1, .foto_categ__2{
+        background-size: 120% auto;
+        background-position: 0px 0px;
+    }
+    .formOrder {
+        width: 375px;
+    }
+    .order_list {
+        width: 55%;
+    }
+    .circle_text p:first-child{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .circle_text p{
+        font-size: 15px;
+    }
+    .Block_1 {
+        height: 722px;
+    }
+    .block_sumka {
+        width: 450px;
+    }
+    
+    .block_sumka p {
+        display: block;
+        width: 100%;
+        margin-top: 45px;
+        font-size: calc(var(--index) * 2);
+        text-align: center;
+    }
+    .circle_text{
+        display: none;
+    }
+    
+    .wrap_cards {
+        flex-wrap: wrap;
+    }
+    .cardProduct {
+        width: 290px;
+        height: 420px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .btn_pg {
+        width: 195px;
+        height: 45px;
+        font-size: 17px;
+    }
+    }/*----------------------------------------------------------------------- 900px ---------*/
+    
+    
+    
+    @media (max-width:850px) {
+        .slide_1 {
+            background-position: 0px -100px;
+        }
+    
+    
+    
+    .sumka_info_foto_1 img, .sumka_info_1 {
+        height: 450px;
+    }
+    .fon_toget_text {
+        width: 375px;
+    }
+    .fon_toget_text p:first-child {
+        font-size: calc(var(--index) * 2.2);
+    }
+    .fon_toget_text p {
+        font-size: calc(var(--index) * 1.5);
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .foto_collage {
+        display: none;
+    }
+    .wrap_fon_toget {
+        background: rgba(1, 1, 1, 0.7);
+    }
+    .slider_line{
+        height: 350px;
+    }
+    .slide_2 {
+        background-position: 0px -60px;
+        background-size: 105% auto;
+    }
+    
+    .btn_back {
+        right: 2%;
+        width: 130px;
+        height: 30px;
+        font-size: 15px;
+    }
+    }/*----------------------------------------------------------------------- 850px ---------*/
+    
+    
+    @media (max-width:800px) {
+    .bl_foto {
+        height: 450px;
+    }
+    .block_tov_foto {
+        height: 1470px;
+    }
+    
+    .tovar_proper {
+        width: 250px;
+        height: 285px;
+    }
+    .tov_color {
+        width: 50%;
+    }
+    }/*----------------------------------------------------------------------- 800px ---------*/
+    
+    
+    @media(max-width:770px){
+    .wrap_block_order{
+        align-items: center;
+        flex-direction: column;
+    }
+    .block_order {
+        position: static;
+        width: 90%;
+        height: 550px;
+        border: none;
+        border-bottom: 0.5px solid rgb(113, 113, 113);
+    }
+    .order_list, .formOrder {
+        width: 90%;
+    }
+    
+    .order_tovar {
+        height: auto;
+    }
+    
+    }/*----------------------------------------------------------------------- 770px ---------*/
+    
+    
+    
+    @media(max-width:750px){
+    .wrap_category_men {
+        top: 25px;
+        height: 4100px;
+    }
+    .foto_categ{
+        background-size: 145% auto;
+        background-position: -150px 0px;
+        width: 95%;
+    }
+    .foto_categ__1, .foto_categ__2{
+        background-size: 120% auto;
+        background-position: 0px 0px;
+    }
+    .foto_categ_text a {
+        font-size: calc(var(--index) * 1.1);
+    }
+    .video_gucci img, .sumka_info_text_DOP{
+        display: block;
+    }
+    .block_video_content1947{
+        top: 30%;
+    } 
+    .video1947, .sumka_info{
+        display: none;
+    }
+    
+    
+    .sumka_info_foto_1, .sumka_info_foto_1 img {
+        height: 400px;
+    }
+    .wrap_block_sumka {
+        height: 500px;
+    }
+    #main_g1947 {
+        height: 79vh;
+    }
+    .block_sumka p {
+        font-size: calc(var(--index) * 2.1);
+    }
+    .bl_menu p, .bl_list, .bl_rigth, .item_cont{
+        display: none;
+    }
+      
+    .bl_rigth_Adapt, #menu_aside{
+        display: flex;
+    }
+    .bl_menu{ 
+        align-items: center;
+    }
+    .bl_menu img{ 
+        display: block;
+        width: 40px;
+        height: 25px;
+    }
+    
+    .slide_2 {
+        background-size: 110% auto;
+        background-position: -32px 3px;
+    }
+    .slide_about {
+        width: 420px;
+        height: 220px;
+        font-size: 23px;
+    }
+    .btn_prev, .btn_next {
+        width: 20px;
+        height: 40px;
+    }
+    .btn-pg_MainSlide {
+        font-size: 15px;
+        width: 170px;
+        height: 35px;
+    }
+    .slide_3 {
+        background-size: 134% auto;
+        background-position: -80px -64px;
+    }
+    .Block_4 {
+        height: 680px;
+        justify-content: space-between;
+    }
+    .bl_story div img {
+        height: 190px;
+    }
+    .bl_story {
+        height: 600px;
+        flex-wrap: wrap;
+        width: 85%;
+        align-content: center;
+    }
+    .bl_story div {
+        width: 45%;
+    }
+    .bl_story div:nth-child(2) {
+        width: 33%;
+        height: 280px;
+    }
+    .bl_foter_up div {
+        margin: 0;
+        line-height: 75px;
+        height: auto;
+        padding: 5px;
+    }
+    .bl_foter_up {
+        flex-direction: column;
+        height: auto;
+    }
+    .f_content_1{
+        border-bottom: 1px solid;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .item_trig{
+        cursor: pointer;
+    }
+    .item_trig img{
+        display: block;
+        position: relative;
+        top: -35px;
+        left: 92%;
+    }
+    .fc ul {
+        background-color: #f6f6f6;;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    }/*----------------------------------------------------------------------- 750px ---------*/
+    
+    
+    
+    @media(max-width:650px){  
+        .slide_2 {
+            background-size: 110% auto;
+            background-position: -35px -21px;
+        }
+        .slide_3 {
+            background-size: 140% auto;
+            background-position: -95px -40px;
+        }
+        .slide_about {
+            width: 300px;
+            height: 190px;
+        }
+    .slider_tovFoto_pokaz{
+        display: block;
+    }
+    .block_tov_foto{
+        display: none;
+    }
+    
+    .wrap_tovar_templ {
+        flex-direction: column;
+    }
+    .block_tov_info {
+        width: 100%;
+        height: 513px;
+    }
+    .tov_info_content {
+        height: 375px;
+    }
+    .tovar_proper {
+        width: 360px;
+    }
+    .tovar_name p {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .tovar_buy p {
+        font-size: calc(var(--index) * 2.1);
+        padding: 5px;
+    }
+    .btn_buy {
+        width: 270px;
+        height: 60px;
+        font-size: 19px;
+    }
+    .btn_back {
+        right: 1%;
+        width: 100px;
+        font-size: 13px;
+    }
+    
+    .block_sumka p {
+        font-size: calc(var(--index) * 2.2);
+    }
+    .Block_2{
+        overflow: hidden;
+        height: 1020px;
+    }
+    .block_foto, .block_foto2{
+        position: relative;
+        left: 0.5%;
+        background-size: 99% 500px;
+        height: 505px;
+    }  
+    .Block_3 {
+        margin-top: 15px;
+    }
+    
+    .slide_1 {
+        background-size: 105% auto;
+        background-position: 0px -70px;
+    }
+    
+    .slider_line {
+        height: 325px;
+    }
+    
+    .cardProduct {
+        width: 46%;
+    }
+    }/*----------------------------------------------------------------------- 650px ---------*/
+    
+    
+    
+    
+    @media (max-width:600px) {
+    
+    .block_sumka p {
+        font-size: calc(var(--index) * 2.3);
+    }
+    
+    .block_sumka {
+        height: 500px;
+    }
+    }/*----------------------------------------------------------------------- 600px ---------*/
+    
+    
+    
+    @media(max-width:550px){
+        .slide_1 {
+            background-position: 0px -20px
+        }
+        .slide_2 {
+            background-size: 112% auto;
+            background-position: -28px -5px;
+        }
+        .slide_3 {
+            background-size: 155% auto;
+            background-position: -110px -20px;
+        }
+    
+        .cardProduct {
+            width: 220px;
+            height: 365px;
+        }
+        .card_img, .card_img img {
+            height: 265px;
+        }
+        .btn_pg {
+            width: 160px;
+            height: 35px;
+            font-size: 16px;
+        }
+        .card_descrp p:last-child {
+            font-size: 18px;
+        }
+    .wrap_korzina {
+        top: 68px;
+    }
+    
+    
+    .Block_4 {
+        height: 610px;
+    }
+    .bl_story div {
+        width: 40%;
+    }
+    .bl_story div img {
+        height: 150px;
+    }
+    .bl_story {
+        height: 535px;
+    }
+    .bl_menu img {
+        width: 30px;
+        height: 20px;
+    }
+    .bl_rigth img {
+        width: 25px;
+        height: 22px;
+        margin-left: 15px;
+    }
+    }/*----------------------------------------------------------------------- 550px ---------*/
+    
+    
+    
+    @media(max-width:470px){
+        .cardProduct {
+            width: 205px;
+            height: 365px;
+        }
+        .btn_pg {
+            width: 145px;
+            height: 33px;
+            font-size: 15px;
+        }
+    
+        .foto_categ__6, .foto_categ__5, .foto_categ__4, .foto_categ__3 {
+            background-size: 180% auto;
+        }
+        .bl_logo2 {
+            margin-left: 20px;
+        }
+        .lupa_adapt_DOP {
+            width: 100%;
+        }
+        .panel_down h1 {
+            font-size: 17px;
+        }
+        .btn_back {
+            width: 85px;
+            font-size: 12px;
+        }
+        .formOrder {
+            height: 445px;
+        }
+        .fon_toget_text p {
+            padding: 25px;
+        }
+        .sumka_info_text_DOP {
+            width: 90%;
+        }
+    
+        .btn_close {
+            width: 27px;
+            height: 27px;
+        }
+        .strelaBack {
+            width: 24px;
+            height: 24px;
+        }
+    }/*----------------------------------------------------------------------- 470px ---------*/
+    
+    
+    
+    
+    
+    
+    @media(max-width:440px){
+        .card_img, .card_img img {
+            height: 220px;
+        }
+        .card_descrp p:last-child {
+            font-size: 16px;
+        }
+        .card_descrp {
+            font-size: 14px;
+        }
+        .btn_pg {
+            width: 134px;
+        }
+        .card_btn img {
+            width: 18px;
+            height: 18px;
+        }
+    .cardProduct {
+        width: 185px;
+        height: 310px;
+    }
+      h2 {
+        width: 310px;
+    }
+    }
+    
+    
+    
+    @media(max-width:410px){
+    
+    .bl_rigth, .bl_rigth_Adapt {
+        padding: 7px;
+        margin-left: -35px;
+    }
+      .bl_logo, .bl_logo2 {
+        width: 100%;
+        padding: 10px;
+        margin-left: 0px;
+    }
+      .bl_logo img {
+        margin-bottom: 0px;
+        width: 130px;
+        height: 25px;
+    }
+    
+    .bl_rigth img, .bl_rigth_Adapt img {
+        width: 25px;
+        height: 22px;
+        margin-left: 10px;
+    
+    }
+    
+      
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
