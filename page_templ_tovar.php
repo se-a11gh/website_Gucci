@@ -34,14 +34,14 @@
         <li>Manufacturer: Turkey</li>
     </ul>
     <div class="tov_color">
-        <p aria-label="розовый цвет" class="color_1"> </p>
-        <p aria-label="салатовый цвет" class="color_2"> </p>
-        <p aria-label="темно-серый цвет" class="color_3"> </p>
+        <button class="color_1" type="button" aria-label="розовый цвет"> </button>
+        <button class="color_2" type="button" aria-label="салатовый цвет"> </button>
+        <button class="color_3" type="button" aria-label="темно-серый цвет"> </button>
     </div>
-    <select class="tov_size" name="" id="">
-            <option value="">XXL</option>
-            <option value="">S</option>
-            <option value="">M</option>
+    <select class="tov_size">
+            <option value="1">XXL</option>
+            <option value="2">S</option>
+            <option value="3">M</option>
         </select>
 
     </div>

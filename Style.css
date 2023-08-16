@@ -1,7 +1,6 @@
 @import url('Global.css');
 @import url('header.css');
 
-
 .Block_1{
     width: 98.5%;
     height: 700px;
@@ -66,7 +65,7 @@
 	top:0;
     width: 98.5%;
     height: 700px;
-    background-size: 100% 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .block_foto {
@@ -80,6 +79,7 @@
     width: 400px;
     height: 260px;
     background: rgb(255, 255, 255, 0.7);
+    text-align: center;
 }
 .foto_about2 p{
     margin: 50px auto;
@@ -89,9 +89,7 @@
     width: 300px;
     font-size: 25px;
 }
-.btn-pg_Main_style{
-    border: 0.3px solid white;
-}
+
 
 
 
@@ -119,27 +117,21 @@
     position: relative;
     width: 100%;
     border-radius: 10px;
-
     height: auto;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    z-index: 1;
     background-color: rgb(249, 251, 251);    
+    z-index: 1;
 }
 .slide_1{
     background-image: url('media/slideImg1.png');
-    background-size: 100% auto;
-    background-position: 0px -200px;
-
 }
 .slide_2{
     background-image: url('media/slideImg22.png');
-    background-size: 100% auto;
-    background-position: 0px -100px;
 }
 .slide_3{
     background-image: url('media/slideImg3.png');
-    background-size: 115% auto;
-    background-position: -14px -102px;
 }
 
 .slide_about{
@@ -274,10 +266,11 @@ h2{
     justify-content: space-around;
     width: 40%;
 }
-.tov_color p{
+.tov_color button{
     width: 27px;
     height: 27px;
     border-radius: 50%;
+    border: none;
     cursor: pointer;
 }
 .color_1{background-color:#F5D7D7;}
@@ -349,7 +342,7 @@ h2{
     display: none;
     position: absolute;
     top: 32%;
-    width: 100%;
+    width: 75%;
     text-align: center;
     z-index: 5;
     color: white;
@@ -371,55 +364,80 @@ h2{
     0%{margin-top: 340px;}
     100%{margin-top: 400px;}
 }
-.wrap_block_sumka{
-    justify-content: space-around;
-    height: 1400px;
-    background-color:rgb(238, 238, 238);
+
+
+.fotoBl_1947_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky; 
+    top:10px;
+    width:97.8%; 
+    height:650px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("media/196.png");
+    background-size: 100% 650px;
+    opacity:0.8;
+    transition: opacity 1s;
 }
-.sumka_info{ 
-    justify-content: space-around;
-    height: 800px;
-}
-.sumka_info_1{
-    width: 100%;
-    height: 800px;
+.fotoBl_1947_1 p{
+    display: none;
+  max-width: 570px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  border: 1px solid red;
 }
 
-.sumka_info_text{
-    text-align: center;
-    width: 700px;
-    height: 130px;
-    font-size: 20px;
+.fotoBl_1947_2{
+    width:100%; 
+    height:650px;
+    position:sticky; top:10px; z-index:2;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.sumka_info_text p{
-   font-size: 45px;
-   font-weight: bold;
-   margin-bottom: 10px;
-   border-bottom: 1px solid rgb(222, 136, 24);
+.fotoBl_1947_2 img{
+    width:500px; 
+    height:650px;
 }
-.sumka_info_foto{
-    width: 475px;
-}
-.sumka_info_foto img{
-    width: 100%;
-}
-.sumka_info_text_1{
-    width: 550px;
-    height: 350px;
-    font-size: calc(var(--index) * 1.2);
-    border-left: 1px solid rgb(222, 136, 24);
-    padding: 15px;
+.fotoBl_1947_3{
+    width:100%; 
+    height:auto;
+    position:sticky; top:10px; z-index:2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
     box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.sumka_info_foto_1{
-    width: 700px;
-    height: 600px;
+.fotoBl_1947_3 img{
+    width:350px; 
+    height:auto;
 }
-.sumka_info_foto_1 img{
-    width: 97%;
-    height: 600px;
-    border-radius: 50%;
+
+.text_fon1947{
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+    width: 500px;
+    height: 400px;
+    background: rgba(1, 1, 1, 0.7);
 }
+.text_fon1947 p{
+    width: 85%;
+    margin: 35% auto;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
 
 
 
@@ -438,31 +456,16 @@ h2{
     width: 48%;
     height: 650px;
     background-repeat: no-repeat;
-    background-size: 130% auto;
+    background-position: center;
+    background-size: cover;
     margin-top: 10px;
 }
-.foto_categ__1{
-    background-image: url('media/tov_catg1.webp');
-    background-size: 100% auto;
-}
-.foto_categ__2{
-    background-image: url('media/tov_catg2.webp');
-    background-size: 100% auto;
-}
-.foto_categ__3{
-    background-image: url('media/tov_catg3.webp');
-}
-
-
-.foto_categ__4{
-    background-image: url('media/tov_catg4.jpg');
-}
-.foto_categ__5{
-    background-image: url('media/tov_catg5.jpg');
-}
-.foto_categ__6{
-    background-image: url('media/tov_catg6.webp');
-}
+.foto_categ__1{ background-image: url('media/tov_catg1.webp');}
+.foto_categ__2{ background-image: url('media/tov_catg2.webp');}
+.foto_categ__3{ background-image: url('media/tov_catg3.webp');}
+.foto_categ__4{ background-image: url('media/tov_catg4.jpg'); }
+.foto_categ__5{ background-image: url('media/tov_catg5.jpg'); }
+.foto_categ__6{ background-image: url('media/tov_catg6.webp');}
 .foto_categ_fon{
     width: 100%;
     height: 650px;
@@ -513,7 +516,7 @@ h2{
     width: 100%;
     height: 50px;
     background-color: #dfdfdf;
-    z-index: 40;
+    z-index: 4;
 }
 .panel_down h1{
     font-weight: normal;
@@ -522,15 +525,20 @@ h2{
     position: absolute;
     right: 3%;
     width: 200px;
-    height: 35px;
+}
+.btn_back a{
+    text-decoration: none;
     background-color: #c1c1c1;
     border: none;
     border-radius: 30px;
     font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
 }
-.btn_back a{
-    text-decoration: none;
-}
+
+
+
 .formOrder{
     display: flex;
     flex-direction: column;

@@ -2,7 +2,7 @@
 <footer id="footer_g">
 <div class="bl_foter_up">
       <div class="f_content_1 fc"> 
-        <div class="item_trig"><p>MAY WE HELP YOU?</p><img src="media/plus 3.svg" alt=""></div>
+        <div class="item_trig"><p>MAY WE HELP YOU?</p><img src="media/plus3.svg" alt=""></div>
         <ul class="item_cont">
             <li>Contact Us</li>
             <li>FAQs</li>
@@ -12,7 +12,7 @@
       </div>  
        
 <div class="f_content_1 fc">
-        <div class="item_trig"><p>THE COMPANY</p><img src="media/plus 3.svg" alt=""></div>
+        <div class="item_trig"><p>THE COMPANY</p><img src="media/plus3.svg" alt=""></div>
     <ul class="item_cont">
         <li>Exclusive visit</li>
         <li>History of Gucci</li>
@@ -22,7 +22,7 @@
 </div>
 
 <div class="f_content_1 fc">
-    <div class="item_trig"><p>MENU</p><img src="media/plus 3.svg" alt=""></div>
+    <div class="item_trig"><p>MENU</p><img src="media/plus3.svg" alt=""></div>
     <ul class="item_cont">
         <li>Gifts</li>
         <li>What’s new</li>

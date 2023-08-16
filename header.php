@@ -14,7 +14,6 @@
 <?php require('../Site_7/return.php');?>
 
 <div class="Wraper">
-<!---------------------------------------------------------------->
 <header id="header_g">
 
 <aside id="menu_aside">
@@ -143,12 +142,12 @@
     <a href="Main.php"><img src="media/logo.png" alt="логотип gucci"></a>
     <div class="bl_list">
         <ul>
-            <a href="#list_1"><li class="k">Gifts</li></a>
-            <a href="#list_2"><li class="k">What’s new</li></a>
-            <a href="#list_3"><li class="k">for Men</li></a>
-            <a href="#list_4"><li class="k">for Women</li></a>
-            <a href="#list_5"><li class="k">Kids</li></a>
-            <a href="#list_6"><li class="k">Beauty</li></a>
+            <li class="k"><a href="#list_1">Gifts</a></li>
+            <li class="k"><a href="#list_2">What’s new</a></li>
+            <li class="k"><a href="#list_3">for Men</a></li>
+            <li class="k"><a href="#list_4">for Women</a></li>
+            <li class="k"><a href="#list_5">Kids</a></li>
+            <li class="k"><a href="#list_6">Beauty</a></li>
         </ul>
     </div> 
 </div>
@@ -175,143 +174,133 @@
     <div id="list_1">
         <div class="wrap_list">
             <ul>
-                <a href="page_men.php"><li>Gifts for men</li></a>
-                <a href="page_men.php"><li>Gifts for women</li></a>
-                <a href="page_men.php"><li>Gifts for kids</li></a>
-                <a href="page_men.php"><li>Gifts on holidays</li></a>
+                <li><a href="page_men.php">Gifts for men</a></li>
+                <li><a href="page_men.php">Gifts for women</a></li>
+                <li><a href="page_men.php">Gifts for kids</a></li>
+                <li><a href="page_men.php">Gifts on holidays</a></li>
             </ul>
         </div>
         <img src="media/gifts.jpg" alt="">
     </div>
 
     <div id="list_2">
-        <div class="wrap_list flex_center">
+        <div class="wrap_list">
             <ul>
-            <a href="page_men.php"><li>Gucci Bamboo 1947</li></a>
-            <a href="page_men.php"><li>Collection 2023</li></a>
-            <a href="page_men.php"><li>Fashion show</li></a>
-            <a href="page_men.php"><li>Perfume Gucci-Flora</li></a>
+                <li><a href="page_men.php">Gucci Bamboo 1947</a></li>
+                <li><a href="page_men.php">Collection 2023</a></li>
+                <li><a href="page_men.php">Fashion show</a></li>
+                <li><a href="page_men.php">Perfume Gucci-Flora</a></li>
             </ul>
         </div>
         <img src="media/222.jpg" alt="">
 </div>
 
 <div id="list_3">
-    <div class="wrap_list flex_center">
+    <div class="wrap_list">
         <ul>
-   <a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Coats & Jackets</li></a> 
-<a href="page_men.php"><li>Jackets and shirts</li></a> 
-<a href="page_men.php"><li>Bags</li></a> 
-<a href="page_men.php"><li>Pants and shorts</li></a> 
+        <li><a href="page_men.php">Jumpers and cardigans</a></li>
+        <li><a href="page_men.php">Jackets and shirts</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">Pants and shorts</a></li>
+        <li><a href="page_men.php">Bags</a></li>
         </ul>
         <ul>
-<a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Coats & Jackets</li></a> 
-<a href="page_men.php"><li>T-shirts and sweatshirts</li></a> 
-<a href="page_men.php"><li>Moccasins and loafers</li></a> 
-<a href="page_men.php"><li>Pants and shorts</li></a> 
+        <li><a href="page_men.php">Moccasins and loafers</a></li>
+        <li><a href="page_men.php">Jackets and shirts</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">Pants and shorts</a></li>
+        <li><a href="page_men.php">Bags</a></li>
         </ul>
         <ul>
-<a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Coats & Jackets</li></a> 
-<a href="page_men.php"><li>T-shirts and sweatshirts</li></a> 
-<a href="page_men.php"><li>Jackets and shirts</li></a> 
-<a href="page_men.php"><li>Bags</li></a>  
+        <li><a href="page_men.php">Jumpers and cardigans</a></li>
+        <li><a href="page_men.php">Jackets and shirts</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">Pants and shorts</a></li>
+        <li><a href="page_men.php">Bags</a></li>
         </ul>
         <ul>
-     <a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Jackets and shirts</li></a> 
-<a href="page_men.php"><li>Bags</li></a> 
-<a href="page_men.php"><li>Moccasins and loafers</li></a> 
-<a href="page_men.php"><li>Pants and shorts</li></a> 
-        </ul> 
-        
-        
+        <li><a href="page_men.php">Moccasins and loafers</a></li>
+        <li><a href="page_men.php">Jackets and shirts</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">Pants and shorts</a></li>
+        <li><a href="page_men.php">Bags</a></li>
+        </ul>
     </div>
     <img src="media/men.jpg" alt="">
 </div>
 
 
 <div id="list_4">
-    <div class="wrap_list flex_center">
+    <div class="wrap_list">
         <ul>
-<a href="page_men.php"><li>Cocktail & evening dresses</li></a> 
-<a href="page_men.php"><li>Bags</li></a> 
-<a href="page_men.php"><li>Shoes</li></a> 
-<a href="page_men.php"><li>Underwear</li></a> 
-<a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Coats & Jackets</li></a> 
-<a href="page_men.php"><li>T-shirts and sweatshirts</li></a>
+        <li><a href="page_men.php">Cocktail & evening dresses</a></li>
+        <li><a href="page_men.php">Bags</a></li>
+        <li><a href="page_men.php">Shoes</a></li>
+        <li><a href="page_men.php">Underwear</a></li>
+        <li><a href="page_men.php">Jumpers and cardigans</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">T-shirts and sweatshirts</a></li>
         </ul>
         <ul>
-<a href="page_men.php"><li>Cocktail & evening dresses</li></a> 
-<a href="page_men.php"><li>Bags</li></a> 
-<a href="page_men.php"><li>Shoes</li></a> 
-<a href="page_men.php"><li>Underwear</li></a> 
-<a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Coats & Jackets</li></a> 
-<a href="page_men.php"><li>T-shirts and sweatshirts</li></a>
+        <li><a href="page_men.php">Cocktail & evening dresses</a></li>
+        <li><a href="page_men.php">Bags</a></li>
+        <li><a href="page_men.php">Shoes</a></li>
+        <li><a href="page_men.php">Underwear</a></li>
+        <li><a href="page_men.php">Jumpers and cardigans</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">T-shirts and sweatshirts</a></li>
         </ul>
         <ul>
- <a href="page_men.php"><li>Cocktail & evening dresses</li></a> 
-<a href="page_men.php"><li>Bags</li></a> 
-<a href="page_men.php"><li>Shoes</li></a> 
-<a href="page_men.php"><li>Underwear</li></a> 
-<a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Coats & Jackets</li></a> 
-<a href="page_men.php"><li>T-shirts and sweatshirts</li></a>
+        <li><a href="page_men.php">Cocktail & evening dresses</a></li>
+        <li><a href="page_men.php">Bags</a></li>
+        <li><a href="page_men.php">Shoes</a></li>
+        <li><a href="page_men.php">Underwear</a></li>
+        <li><a href="page_men.php">Jumpers and cardigans</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">T-shirts and sweatshirts</a></li>
         </ul>
         <ul>
-<a href="page_men.php"><li>Bags</li></a> 
-<a href="page_men.php"><li>Shoes</li></a> 
-<a href="page_men.php"><li>Underwear</li></a> 
-<a href="page_men.php"><li>Jumpers and cardigans</li></a> 
-<a href="page_men.php"><li>Coats & Jackets</li></a> 
-<a href="page_men.php"><li>T-shirts and sweatshirts</li></a>
+        <li><a href="page_men.php">Cocktail & evening dresses</a></li>
+        <li><a href="page_men.php">Bags</a></li>
+        <li><a href="page_men.php">Shoes</a></li>
+        <li><a href="page_men.php">Underwear</a></li>
+        <li><a href="page_men.php">Jumpers and cardigans</a></li>
+        <li><a href="page_men.php">Coats & Jackets</a></li>
+        <li><a href="page_men.php">T-shirts and sweatshirts</a></li>
         </ul>
     </div>
     <img src="media/333.jpg" alt="">
 </div>
 
- 
-
-
-
-
-
-
-
-
-
 
 <div id="list_5">
-    <div class="wrap_list flex_center">
+    <div class="wrap_list">
         <ul>
-        <a href="page_men.php"><li>Baby(0-3)</li></a>
-        <a href="page_men.php"><li>Boys & girls (4-7 old)</li></a>
-        <a href="page_men.php"><li>Boys & girls (8-12 old)</li></a>
-        <a href="page_men.php"><li>Boys & girls (13-17 old)</li></a>
+        <li><a href="page_men.php">Baby</a></li>
+        <li><a href="page_men.php">Boys & girls (4-7 old)</a></li>
+        <li><a href="page_men.php">Boys & girls (8-12 old)</a></li>
+        <li><a href="page_men.php">Boys & girls (13-17 old)</a></li>
         </ul>
     </div>
 <img src="media/kids.jpg" alt="">
 </div>
 
 <div id="list_6">
-<div class="wrap_list flex_center">
+<div class="wrap_list">
         <ul>
-  <a href="page_men.php"><li>Lip balms</li></a> 
-<a href="page_men.php"><li>Lip pencils</li></a> 
-<a href="page_men.php"><li>Nourishing balms</li></a> 
-<a href="page_men.php"><li>Face powders</li></a> 
-<a href="page_men.php"><li>Nail polishes</li></a> 
-<a href="page_men.php"><li>gel glitter</li></a> 
+        <li><a href="page_men.php">Lip balms</a></li>
+        <li><a href="page_men.php">Lip pencils</a></li>
+        <li><a href="page_men.php">Nourishing balms</a></li>
+        <li><a href="page_men.php">Face powders</a></li>
+        <li><a href="page_men.php">Nail polishes</a></li>
+        <li><a href="page_men.php">gel glitter</a></li>
         </ul>
+
         <ul>
-<a href="page_men.php"><li>Lipstick Liquide</li></a> 
-<a href="page_men.php"><li>Lipstick Glow & Care</li></a> 
-<a href="page_men.php"><li>Lipstick Sheer</li></a> 
-<a href="page_men.php"><li>Others Lipstick</li></a> 
+        <li><a href="page_men.php">Lipstick Liquide</a></li>
+        <li><a href="page_men.php">Lipstick Glow & Care</a></li>
+        <li><a href="page_men.php">Lipstick Sheer</a></li>
+        <li><a href="page_men.php">Others Lipstick</a></li>
         </ul>
 </div>
 <img src="media/555.jpeg" alt="">

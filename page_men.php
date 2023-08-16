@@ -1,7 +1,4 @@
 <?php require('header.php');?>
-<style>
-#header_g{ background-color: black; }
-</style>
 
 <div class="wrap_category_men flex_mod2">
 

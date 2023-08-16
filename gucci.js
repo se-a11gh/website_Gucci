@@ -1,13 +1,39 @@
+let f1947 = document.querySelector('.fotoBl_1947_1 p');
+let fon1947 = document.querySelector('.fotoBl_1947_1');
+
+window.addEventListener('scroll', ()=>{
+  if(scrollY > 400 && scrollY < 950){
+    f1947.style.display = "block";
+    fon1947.style.opacity = "1";
+  }
+  else {
+    f1947.style.display = "none";
+    fon1947.style.opacity = "0.8";
+  }
+
+})
+
+
+
 //-- Боковое меню ------------------------------------------------------//
+let element_body = document.querySelector('body');
 let menu_aside = document.querySelector("#menu_aside");
 let btn_menu = document.querySelector(".btn_menu");
 let btn_close = document.querySelector(".btn_close");
 btn_menu.addEventListener('click', ()=>{
+  element_body.classList.toggle('page_lock');
   menu_aside.style.top = "0%";
 });
 btn_close.addEventListener('click', ()=>{
+  element_body.classList.toggle('page_lock');
   menu_aside.style.top = "-120%";
 });
+
+
+
+
+
+
 
 let menu_aside_list = document.querySelector('.menu_aside_list');
 let wrap_aside_DOP = document.querySelector('.wrap_aside_DOP');
@@ -180,6 +206,8 @@ if(Math.abs(xD) > Math.abs(yD)){
 x1 = null;
 y1 = null;
 }
+
+
 
 
 

@@ -37,11 +37,14 @@ body::-webkit-scrollbar-thumb {
     border-radius: 3px;
 }
 
+body.page_lock{
+    overflow: hidden;
+}
+
 a{
     display: block;
     color: black;
     text-decoration: underline;
-    text-align: center;
 }
 
 @font-face {
@@ -66,27 +69,47 @@ a{
 
 
 .btn-pg_Main{ /*--- Кнопки глав. стр ---*/
+    width: 350px;
+}
+.btn-pg_Main a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: none;
     cursor: pointer;
     transition: background 1s;
     font-size: 20px;
-    width: 250px;
-    height: 45px;
-    border: none;
-    background-color: rgb(37, 37, 37);
-    color: white;
+    text-decoration: none;
 }
+.btn-pg_Main_style a{
+    border: 0.3px solid white;
+}
+
+
 
 .btn_pg{ /*--- Кнопки товаров/ купить, избранное. стр ---*/
     width: 200px;
-    height: 40px;
+}
+.btn_pg a{
+    display: block;
     border-radius: 30px;
-    border:none;
+    border:1px solid gray;
     font-size: 17px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
     cursor: pointer;
     transition: background 1s;
-}.btn_pg:hover{
+    text-align: center;
+}
+.btn_pg a:hover{
     background-color: #312F2F;
     color: white;
+    border: none;
 }
 
 
@@ -96,6 +119,9 @@ a{
 .tovar_list{
     width: 100%;
     height: auto;
+    background:white; 
+    position:relative; 
+    z-index:3;
 }
 .categrProd{
     justify-content: space-around;
@@ -235,10 +261,6 @@ a{
     height: 15px;
 }
 
-.item_trig p, .bl_select label{
-    padding-left: 30px;
-    box-sizing: border-box;
-}
 
 .bl_foter_up ul li{
     line-height: 25px;

@@ -188,25 +188,30 @@
     align-items: center;
     width: 100%;
 }
-#list_1 img, #list_3 img, #list_4 img, #list_6 img{
-    width: 45%;
+#list_3 img, #list_4 img{
+    width: 25%;
     height: 350px;
 }
-#list_2 img,  #list_5 img{
+#list_1 img, #list_2 img,  #list_5 img, #list_6 img{
     width: 75%;
     height: 350px;
 }
-
-
 .wrap_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+} 
+
+/* .wrap_list{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 350px;
-}
+} */
 .wrap_list ul{
-    margin: 50px;
+    margin: 10px;
 }
 .wrap_list ul li{
 margin-top: 15px;

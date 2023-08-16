@@ -2,7 +2,7 @@
     .cardProduct {
         width: 280px;
     }
-    } 
+    }
     
     
     @media (max-width:1250px) {
@@ -10,7 +10,13 @@
         width: 400px;
         height: 400px;
     }
+    
+    .fotoBl_1947_2 img, .text_fon1947 {
+        width: 410px;
     }
+    }/*---------------------------------------------------------------------- 1250px ---------*/
+    
+    
     
     @media (max-width:1200px) {
     .cardProduct {
@@ -19,66 +25,71 @@
     .slider_line{
         height: 460px;
     }
-    }
-    
+}
 
-    @media(max-width:1150px){
-    .wrap_list ul{
-        margin: 42px;
-    }
-    
-    .foto_collage img {
-        height: 450px;
-    }
-    .circle_text {
-        width: 350px;
-        height: 350px;
-        margin-left: 40px;
-    }
-    .circle_text p:first-child{
-        font-size: 25px;
-    }
-    .circle_text p{
-        font-size: 16px;
-    }
-    .slide_3 {
-        background-position: -16px -70px;
-    }
     
     
-    }/*---------------------------------------------------------------------- 1150px ---------*/
+@media(max-width:1150px){
+.fotoBl_1947_1 {
+    height: 520px;
+    background-size: 100% 525px;
+}
+.fotoBl_1947_2{
+    height: 520px;
+}
+.text_fon1947 {
+    width: 34%;
+    top: 11%;
+}
+.fotoBl_1947_2 img {
+    width: 34%;
+    height: 520px;
+}
+.fotoBl_1947_3 img {
+    width: 32%;
+}
+.foto_collage img {
+    height: 450px;
+}
+.circle_text {
+    width: 350px;
+    height: 350px;
+    margin-left: 40px;
+}
+.circle_text p:first-child{
+    font-size: 25px;
+}
+.circle_text p{
+    font-size: 16px;
+}
+}
+
     
-    
-    @media(max-width:1100px){
-    .bl_foto {
-        height: 650px;
-    }
-    .block_tov_foto {
-        height: 2050px;
-    }
-    .wrap_list ul{
-        margin: 37px;
-    }
-    .bl_list {
-        width: 710px;
-    }
-    .foto_categ{
-        background-size: 150% auto;
-    }
-    .foto_categ__1, .foto_categ__2{
-        background-size: 110% auto;
-    }
-    .tovar_proper {
-        width: 420px;
-    }
-    .tov_info_content {
-        width: 100%;
-    }
-    }/*---------------------------------------------------------------------- 1100px ---------*/
-    
+@media(max-width:1100px){
+.bl_foto {
+    height: 650px;
+}
+.block_tov_foto {
+    height: 2050px;
+}
+.bl_list {
+    width: 710px;
+}
+.tovar_proper {
+    width: 420px;
+}
+.tov_info_content {
+    width: 100%;
+}
+}
     
     
     @media(max-width:1050px){
+        .fotoBl_1947_1 p{
+          font-size: 25px;
+        }
+
+
     .cardProduct {
         width: 22%;
         height: 405px;
@@ -88,17 +99,11 @@
     }
     .btn_pg {
         width: 165px;
-        height: 35px;
+    }
+    .btn_pg a{
         font-size: 16px;
     }
     
-    
-    .sumka_info_foto_1 img {
-        height: 500px;
-    }
-    .sumka_info_1 {
-        height: 600px;
-    }
     .formOrder {
         width: 500px;
     }
@@ -113,12 +118,7 @@
     }
     .slider_line{
         height: 415px;
-    }
-    .slide_2{
-        background-position: -55px -115px;
-        background-size: 110% auto;
-    }
-    
+    }    
     .slide_about{
         width: 45%;
     }
@@ -134,18 +134,18 @@
     }/*---------------------------------------------------------------------- 1050px ---------*/
     
     
-    
-    
-    
-    
-    
-    
-    @media(max-width:950px){
-        .slide_3 {
-            background-size: 119% auto;
-            background-position: -49px -53px;
-        }
-    
+     
+@media(max-width:950px){
+    .fotoBl_1947_2 img, .fotoBl_1947_3 img {
+        width: 50%;
+    }
+    .text_fon1947 {
+        width: 50%;
+        top: 13%;
+    }
+    .text_fon1947 p{
+        font-size: 22px;
+    }
     .Block_3 {
         margin-top: -40px;
     }
@@ -159,9 +159,15 @@
         width: 135%;
         font-size: calc(var(--index) * 0.8);
     }
-    .wrap_list ul{
-        margin: 30px;
+
+    .list_X, #list_3 img, #list_4 img, #list_1 img, #list_2 img,  #list_5 img, #list_6 img{
+        height: 300px;
     }
+
+    #list_1 img, #list_2 img, #list_5 img, #list_6 img {
+        width: 50%;
+    }
+
     .fon_toget_text {
         width: 36%;
         height: 100px;
@@ -177,7 +183,6 @@
         width: 55%;
         font-size: calc(var(--index) * 2.5);
     }
-    
     .wrap_text p:nth-child(1) {
         font-size: calc(var(--index) * 1.2);
     }
@@ -195,14 +200,6 @@
     
     
     @media (max-width:900px) {
-    .foto_categ{
-        background-size: 190% auto;
-        background-position: -150px 0px;
-    }
-    .foto_categ__1, .foto_categ__2{
-        background-size: 120% auto;
-        background-position: 0px 0px;
-    }
     .formOrder {
         width: 375px;
     }
@@ -245,23 +242,19 @@
     }
     .btn_pg {
         width: 195px;
-        height: 45px;
-        font-size: 17px;
     }
     }/*----------------------------------------------------------------------- 900px ---------*/
     
     
     
     @media (max-width:850px) {
-        .slide_1 {
-            background-position: 0px -100px;
+        .btn-pg_MainSlide{
+            width: 255px;
         }
-    
-    
-    
-    .sumka_info_foto_1 img, .sumka_info_1 {
-        height: 450px;
-    }
+        .btn-pg_Main a{
+            font-size: 17px;
+        }
+
     .fon_toget_text {
         width: 375px;
     }
@@ -282,16 +275,13 @@
     .slider_line{
         height: 350px;
     }
-    .slide_2 {
-        background-position: 0px -60px;
-        background-size: 105% auto;
-    }
-    
     .btn_back {
         right: 2%;
         width: 130px;
-        height: 30px;
+    }
+    .btn_back a{
         font-size: 15px;
+        padding: 8px;
     }
     }/*----------------------------------------------------------------------- 850px ---------*/
     
@@ -311,6 +301,23 @@
     .tov_color {
         width: 50%;
     }
+
+
+    .bl_menu_p, .bl_list{
+        display: none;
+    }
+    #menu_aside{
+        display: flex;
+    }
+    .bl_menu{ 
+        align-items: center;
+    }
+    .bl_menu img{ 
+        display: block;
+        width: 40px;
+        height: 25px;
+    }
+
     }/*----------------------------------------------------------------------- 800px ---------*/
     
     
@@ -339,18 +346,37 @@
     
     
     @media(max-width:750px){
+        .fotoBl_1947_1, .fotoBl_1947_2 {
+            position: relative;
+        }
+        .fotoBl_1947_1{
+            margin-bottom: 0px;
+        }
+            .fotoBl_1947_1 p{
+              font-size: calc(var(--index) * 1.8);
+            }
+            .text_fon1947 p{
+                font-size: 18px;
+            }
+
+        .fotoBl_1947_2 img {
+            width: 500px;
+        }
+        .text_fon1947 {
+            width: 500px;
+        }
+        .fotoBl_1947_3 {
+            padding: 6px;
+            margin-top: 5px;
+        }
+
+
     .wrap_category_men {
         top: 25px;
         height: 4100px;
     }
     .foto_categ{
-        background-size: 145% auto;
-        background-position: -150px 0px;
         width: 95%;
-    }
-    .foto_categ__1, .foto_categ__2{
-        background-size: 120% auto;
-        background-position: 0px 0px;
     }
     .foto_categ_text a {
         font-size: calc(var(--index) * 1.1);
@@ -361,43 +387,26 @@
     .block_video_content1947{
         top: 30%;
     } 
-    .video1947, .sumka_info{
+    .video1947{
         display: none;
     }
     
-    
-    .sumka_info_foto_1, .sumka_info_foto_1 img {
-        height: 400px;
-    }
-    .wrap_block_sumka {
-        height: 500px;
-    }
+ 
+
     #main_g1947 {
         height: 79vh;
     }
     .block_sumka p {
         font-size: calc(var(--index) * 2.1);
     }
-    .bl_menu p, .bl_list, .bl_rigth, .item_cont{
+ .bl_rigth, .item_cont{
         display: none;
     }
       
-    .bl_rigth_Adapt, #menu_aside{
+    .bl_rigth_Adapt{
         display: flex;
     }
-    .bl_menu{ 
-        align-items: center;
-    }
-    .bl_menu img{ 
-        display: block;
-        width: 40px;
-        height: 25px;
-    }
-    
-    .slide_2 {
-        background-size: 110% auto;
-        background-position: -32px 3px;
-    }
+
     .slide_about {
         width: 420px;
         height: 220px;
@@ -407,15 +416,7 @@
         width: 20px;
         height: 40px;
     }
-    .btn-pg_MainSlide {
-        font-size: 15px;
-        width: 170px;
-        height: 35px;
-    }
-    .slide_3 {
-        background-size: 134% auto;
-        background-position: -80px -64px;
-    }
+
     .Block_4 {
         height: 680px;
         justify-content: space-between;
@@ -471,14 +472,6 @@
     
     
     @media(max-width:650px){  
-        .slide_2 {
-            background-size: 110% auto;
-            background-position: -35px -21px;
-        }
-        .slide_3 {
-            background-size: 140% auto;
-            background-position: -95px -40px;
-        }
         .slide_about {
             width: 300px;
             height: 190px;
@@ -519,6 +512,8 @@
     .btn_back {
         right: 1%;
         width: 100px;
+    }
+    .btn_back a{
         font-size: 13px;
     }
     
@@ -530,8 +525,6 @@
         height: 1020px;
     }
     .block_foto, .block_foto2{
-        position: relative;
-        left: 0.5%;
         background-size: 99% 500px;
         height: 505px;
     }  
@@ -539,10 +532,6 @@
         margin-top: 15px;
     }
     
-    .slide_1 {
-        background-size: 105% auto;
-        background-position: 0px -70px;
-    }
     
     .slider_line {
         height: 325px;
@@ -570,18 +559,9 @@
     
     
     @media(max-width:550px){
-        .slide_1 {
-            background-position: 0px -20px
+        .fotoBl_1947_2 img, .text_fon1947 {
+            width: 97.8%;
         }
-        .slide_2 {
-            background-size: 112% auto;
-            background-position: -28px -5px;
-        }
-        .slide_3 {
-            background-size: 155% auto;
-            background-position: -110px -20px;
-        }
-    
         .cardProduct {
             width: 220px;
             height: 365px;
@@ -591,8 +571,9 @@
         }
         .btn_pg {
             width: 160px;
-            height: 35px;
-            font-size: 16px;
+        }
+        .btn_pg a{
+        padding: 7px;
         }
         .card_descrp p:last-child {
             font-size: 18px;
@@ -634,12 +615,10 @@
         }
         .btn_pg {
             width: 145px;
-            height: 33px;
-            font-size: 15px;
         }
-    
-        .foto_categ__6, .foto_categ__5, .foto_categ__4, .foto_categ__3 {
-            background-size: 180% auto;
+        .btn_pg a{
+        padding: 6px;
+        font-size: 15px;
         }
         .bl_logo2 {
             margin-left: 20px;
@@ -650,10 +629,8 @@
         .panel_down h1 {
             font-size: 17px;
         }
-        .btn_back {
-            width: 85px;
-            font-size: 12px;
-        }
+
+
         .formOrder {
             height: 445px;
         }
@@ -728,10 +705,8 @@
         width: 25px;
         height: 22px;
         margin-left: 10px;
-    
     }
-    
-      
+     
     }
     
     

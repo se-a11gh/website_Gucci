@@ -2,21 +2,19 @@
 
 
 <main id="main_g">
-<div class="video_gucci"> <video loop muted src="media/vid1.mp4" type="video/mp4" autoplay > </video> </div>
+<div class="video_gucci"><video loop muted src="media/vid1.mp4" autoplay></video></div>
 <div class="block_video_content flex_mod">
 <p>Travel together with Gucci</p>
-<a href="page_together.php"><button class="btn-pg_Main" type="button">DISCOVER MORE</button></a>
+<div class="btn-pg_Main"><a href="page_together.php">DISCOVER MORE</a></div>
 </div>
 </main>
-
-
 
 
 <section class="Block_1 flex_center">
 <div class="block_sumka flex_mod">
 <p>"Gucci Bamboo 1947"</p> 
 <img src="media/sumca.png" alt="">
-<a href="page_Sum_1947.php"><button class="btn-pg_Main btn-pg_Main_move" type="button">DISCOVER MORE</button></a>
+<div class="btn-pg_Main"><a href="page_Sum_1947.php">DISCOVER MORE</a></div>
 </div>
 <div class="circle_text flex_center">
 <p>"Gucci Bamboo 1947"</p> 
@@ -35,7 +33,7 @@ From the Gucci Love Parade collection, this medium tote bag is presented in a ne
 <div class="block_foto">
 <div class="foto_about flex_mod">
 <p>NEW COLLECTION 2023</p>
-<a href="page_Sum_1947.php"><button class="btn-pg_Main btn-pg_Main_style" type="button">DISCOVER MORE</button></a>
+<div class="btn-pg_Main btn-pg_Main_style"><a href="page_Sum_1947.php">DISCOVER MORE</a></div>
 </div>
 </div>
 <div class="block_foto2">
@@ -54,15 +52,15 @@ From the Gucci Love Parade collection, this medium tote bag is presented in a ne
 <div class="Block">
 <div class="slider_line">
 <div class="sl_item slide_1 flex_center"><div class="slide_about flex_center"><p>Large Tote OPHIDIA GG</p> 
-<a href="page_templ_tovar.php"> <button class="btn-pg_Main btn-pg_MainSlide">DISCOVER MORE</button></a></div> </div>
+<div class="btn-pg_Main btn-pg_MainSlide"><a href="page_templ_tovar.php">DISCOVER MORE</a></div></div> </div>
 <div class="sl_item slide_2 flex_center"> <div class="slide_about flex_center"><p>Men's loafers</p>
-<a href="page_templ_tovar.php"> <button class="btn-pg_Main btn-pg_MainSlide">DISCOVER MORE</button></a></div> </div>
+<div class="btn-pg_Main btn-pg_MainSlide"><a href="page_templ_tovar.php">DISCOVER MORE</a></div></div> </div>
 <div class="sl_item slide_3 flex_center"><div class="slide_about flex_center"><p>Gucci Savoy GG</p>
-<a href="page_templ_tovar.php"> <button class="btn-pg_Main btn-pg_MainSlide">DISCOVER MORE</button></a></div> </div>
+<div class="btn-pg_Main btn-pg_MainSlide"><a href="page_templ_tovar.php">DISCOVER MORE</a></div></div> </div>
 </div>
 </div>
-<img class="btn_next" src="media/next.png" alt="">
-<img class="btn_prev" src="media/prev.png" alt="">
+<img class="btn_next" src="media/next.png" alt="след. слайд">
+<img class="btn_prev" src="media/prev.png" alt="пред. слайд">
 </div>
 </section>
 
