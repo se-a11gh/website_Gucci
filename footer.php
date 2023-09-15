@@ -63,6 +63,5 @@
 
 </div><!-- END Wraper -->
 <script src="gucci.js"></script>
-<script src="slider.js"></script>
 </body>
 </html>
